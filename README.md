@@ -57,4 +57,4 @@ The Lark-based reader is intentionally a practical subset parser, not a complete
 
 ## Local-execution note
 
-The terminal executes Python in the Flask process and is **not sandboxed**, matching the intended trusted-input workflow. The app binds to `127.0.0.1` only. Do not expose it on a public interface or run untrusted code through it. Console variables are stored in memory and reset when the server restarts.
+The terminal executes Python in the Flask process and is **not sandboxed**. The app binds to `127.0.0.1` only. Do not expose it on a public interface or run untrusted code through it. Console variables are stored in memory and reset when the server restarts.
