@@ -1,3 +1,6 @@
+> [!important]
+> This project was created entirely by AI
+
 # Math Console — Local SymPy + MathLive CAS
 
 A local Flask application with an editable MathLive equation field and a persistent SymPy/Python console. The UI uses separate HTML, CSS, and JavaScript files; Python lives in `app.py` and `latex_parser.py`.
